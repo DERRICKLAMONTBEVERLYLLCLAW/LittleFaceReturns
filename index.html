@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bring Little Face Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --accent:#22d3ee; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--text); }
+    header { padding: 48px 16px; text-align:center; background: linear-gradient(180deg, rgba(34,211,238,0.15), transparent); }
+    h1 { font-size: clamp(28px,4vw,44px); margin: 0 0 8px; }
+    p.lead { font-size: clamp(16px,2.2vw,20px); opacity: .9; max-width: 860px; margin: 0 auto; }
+    .cta { display:inline-block; margin-top: 20px; background: var(--accent); color:#001018; padding: 12px 18px; border-radius: 12px; font-weight:800; text-decoration:none; }
+    main { max-width: 960px; margin: 32px auto; padding: 0 16px 48px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 16px; }
+    .card { background: var(--card); padding: 18px; border-radius: 14px; border:1px solid rgba(255,255,255,.06); }
+    .qr { text-align:center; }
+    footer { text-align:center; padding: 32px; opacity:.7; font-size:14px; }
+    a { color: var(--accent); }
+    img { max-width:100%; height:auto; border-radius:12px; }
+    ul { margin: 8px 0 0 18px; }
+    code { background: #0b1220; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bring Little Face Home</h1>
+    <p class="lead">Yorkie–Pomeranian mix stolen within a two‑week window in March, followed minutes later by a deliberate arson near RFK Park (Wilshire &amp; Alexandria), Los Angeles. This site centralizes recovery efforts, evidence, and press resources.</p>
+    <a class="cta" href="https://www.change.org/LittleFaceReturns" target="_blank" rel="noopener">Sign the Petition</a>
+  </header>
+  <main>
+    <section class="grid">
+      <div class="card">
+        <h3>What Happened</h3>
+        <p>Little Face was stolen while Derrick stepped away briefly to a nearby encampment. When he returned 15–20 minutes later, the tent was freshly burned—an apparent arson. This followed the 2023 hit‑and‑run that killed Derrick’s prior dog, Perfect.</p>
+      </div>
+      <div class="card">
+        <h3>How You Can Help</h3>
+        <ul>
+          <li>Share and sign the petition (button above).</li>
+          <li>Post the <a href="./flyers/Little_Face_Flyer_Print.pdf" target="_blank">print‑safe flyer</a> in Koreatown &amp; Mid‑Wilshire.</li>
+          <li>Send tips (anonymous form coming soon).</li>
+        </ul>
+      </div>
+      <div class="card qr">
+        <h3>Scan to Sign</h3>
+        <img src="./qr_petition.png" alt="QR code to petition">
+        <p><small>This QR will be refreshed with the live petition link as soon as it’s published.</small></p>
+      </div>
+    </section>
+
+    <section class="grid" style="margin-top:18px">
+      <div class="card">
+        <h3>Press &amp; Law Enforcement</h3>
+        <ul>
+          <li><a href="./press/Media_Outreach_Email.txt" target="_blank">Media outreach email</a></li>
+          <li><a href="./press/Phone_Scripts.md" target="_blank">Call scripts</a></li>
+          <li><a href="./letters/LAPD_Escalation_Template.md" target="_blank">LAPD escalation template</a></li>
+          <li><a href="./letters/Microchip_Notice_Template.md" target="_blank">Microchip notice template</a></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:derniercrilamont@yahoo.com">derniercrilamont@yahoo.com</a><br>
+           Phone: (323) 459-9585</p>
+        <p><small>Repository: <a href="https://github.com/DERRICKLAMONTBEVERLYLLCLAW/LittleFaceReturns" target="_blank">GitHub / LittleFaceReturns</a></small></p>
+      </div>
+    </section>
+  </main>
+  <footer>© Little Face Returns — CC0 Public Domain</footer>
+</body>
+</html>
